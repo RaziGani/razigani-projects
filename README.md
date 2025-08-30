@@ -16,11 +16,11 @@ This repository contains my personal and academic projects that showcase my skil
 
 ## 📁 Projects
 
-### 1. **[Project Name]**
-- **Description:** A short description of what this project does.  
-- **Tech Stack:** `Python`, `Flask`, `SQLite`  
+### 1. **Silent Library Website**
+- **Description:** A simple website to showcase basic HTML, CSS and jQUery understanding.  
+- **Tech Stack:** `HTML`, `CSS`, `jQuery`  
 - **Repo/Folder:** [Link to project folder](./project-name)  
-- **Highlights:** ✨ Key Feature 1, ✨ Key Feature 2  
+
 
 ---
 
