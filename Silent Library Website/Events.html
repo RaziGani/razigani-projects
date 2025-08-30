@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Discover upcoming events at Silent Library, including workshops, reading sessions, and author meetups.">
+    <title>Silent Library - Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="header"></div>
+
+    <main class="container my-4">
+      <section id="events" class="mb-5">
+        <h2 class="left">Events</h2>
+             <div class="row align-items-center g-3">
+          <div class="col-md-4 text-center">
+            <div class="event-card">
+              <img src="Pictures/Events.jpg" alt="Events" class="event-img">
+            </div>
+          </div>
+          <div class="col-md-8 event-text">
+            <strong>Treasure of the British Library:</strong>
+            <p>
+              Explore some of the world's most exciting, beautiful, and significant books, maps, and manuscripts in our permanent exhibition.
+              The British Library holds manuscripts and first editions of some of the greatest literary works in the English language, spanning over 1000 years.
+              Of the 150 million items in the collection, here are ten of the finest: from the epic poem <em>Beowulf</em>, one of the earliest surviving literary texts
+              from the English-speaking world, to the precocious wit of the teenage Jane Austen and the pathos of Wilfred Owen’s Great War poetry.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="promotions">
+        <h2 class="left">Promotions</h2>
+        <div class="row align-items-center g-3">
+          <div class="col-md-4 text-center">
+            <div class="event-card">
+              <img src="Pictures/Promos.jpg" alt="Promotions" class="event-img">
+            </div>
+          </div>
+          <div class="col-md-8 event-text">
+            <strong>Secret Maps:</strong>
+            <p>
+              Step into the shadows at Secret Maps, a major new exhibition revealing the stories hidden in some of history’s most mysterious maps.
+              Maps have always been more than just tools for navigation – in the hand of governments, groups, and individuals, maps create and control knowledge.
+              In Secret Maps, we trace the levels of power, coercion, and secrecy that lie behind maps from the 14th century to the present day,
+              and uncover the invisible forces that draw and distort the world around us.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
+

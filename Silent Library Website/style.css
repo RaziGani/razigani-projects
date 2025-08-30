@@ -1,0 +1,181 @@
+/* Global Styles */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #0A1F44;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Image Grid */
+.image-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-card {
+  text-align: center;
+  max-width: 200px;
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-card a {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #0d6efd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.image-card a:hover {
+  text-decoration: underline;
+  color: #D4AF37;
+}
+
+/* Buttons */
+.submit-btn {
+  background-color: #0A1F44;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #D4AF37;
+}
+
+/* Events Section */
+.event-card {
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  padding: 1rem;
+  height: 150px;
+}
+
+.event-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.event-text {
+  padding-left: 1rem;
+}
+h2.left {
+  text-align: left;
+}
+
+
+/* Contact Page */
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#contact form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+/* List Group Links */
+.list-group-item a {
+  color: #0A1F44;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.list-group-item a:hover {
+  color: #D4AF37;
+}
+
+/* Sitemap Page */
+/* Sitemap Page */
+#sitemap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* Keeps it centered in main area */
+  flex-direction: column;
+  text-align: center;
+}
+
+#sitemap table {
+  border-collapse: collapse;
+  margin: 0 auto; /* centers table horizontally */
+  width: 60%; /* adjust width as needed */
+  max-width: 800px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#sitemap th,
+#sitemap td {
+  padding: 12px 16px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+#sitemap th {
+  background-color: #0A1F44;
+  color: white;
+}
+
+#sitemap tr:hover {
+  background-color: #f1f1f1;
+}
+
+#sitemap a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0A1F44;
+}
+
+#sitemap a:hover {
+  color: #D4AF37;
+}
+
+
+
+  
