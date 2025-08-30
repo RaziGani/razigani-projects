@@ -19,7 +19,7 @@ This repository contains my personal and academic projects that showcase my skil
 ### 1. **Silent Library Website**
 - **Description:** A simple website to showcase basic HTML, CSS and jQUery understanding.  
 - **Tech Stack:** `HTML`, `CSS`, `jQuery`  
-- **Repo/Folder:** [Link to project folder](./project-name)  
+- **Repo/Folder:** Silent Library Website  
 
 
 ---
