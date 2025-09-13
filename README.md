@@ -24,12 +24,11 @@ This repository contains my personal and academic projects that showcase my skil
 
 ---
 
-### 2. **[Another Project]**
-- **Description:** What problem does this project solve?  
-- **Tech Stack:** `JavaScript`, `React`, `Node.js`  
-- **Repo/Folder:** [Link to project folder](./another-project)  
-- **Highlights:** 📱 Responsive UI, 🔗 API Integration  
-
+### 2. **Employee Management System**
+- **Description:** Creates a simple system to management employee records. 
+- **Tech Stack:** `Python`
+- **Repo/Folder:** razigani-projects/Employee Management System Python Codes/
+-
 ---
 
 ### 3. **[More Projects...]**
