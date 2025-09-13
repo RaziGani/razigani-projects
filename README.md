@@ -28,7 +28,6 @@ This repository contains my personal and academic projects that showcase my skil
 - **Description:** Creates a simple system to management employee records. 
 - **Tech Stack:** `Python`
 - **Repo/Folder:** razigani-projects/Employee Management System Python Codes/
--
 ---
 
 ### 3. **[More Projects...]**
